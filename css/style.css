@@ -1,0 +1,12 @@
+#top-header{
+    background-color: rgb(86, 86, 139);
+}
+h6 > img{
+    height: 5vh;
+}
+.col-md-4 > img{
+    margin-bottom: -6rem;
+}
+.ccc{
+    background-color: darkslateblue
+}
