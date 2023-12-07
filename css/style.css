@@ -108,6 +108,9 @@ footer{
     .content-wrapper-div{
         flex-direction: column;
     }
+    .text{
+        width: 100%;
+    }
     .parent-text{
         flex-direction: column;
     }
