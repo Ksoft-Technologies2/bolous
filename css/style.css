@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #top-header{
     background-color: rgb(86, 86, 139);
 }
@@ -9,4 +14,135 @@ h6 > img{
 }
 .ccc{
     background-color: darkslateblue
+}
+.navbar-brand > img{
+    height: 10vh;
+}
+.carousel-item >img {
+    height: 90vh;
+}
+.second-image-cover > img {
+    width: 90vh;
+}
+.image-cover{
+    width: 90vh;
+}
+.content-wrapper-div{
+    display: flex;
+    gap: 2rem;
+}
+.text {
+    background-color: #0D3050;
+}
+.text > h2{
+    color: #ffffff;
+    padding: 1rem;
+}
+.parent-text{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+}
+.note > h5,p{
+    color: #ffffff;
+    margin-left: 3rem;
+}
+.notee > h5,p{
+    color: #ffffff;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.noteee > h5{
+    color: #ffffff;
+    margin-left: 10.9rem;
+}
+.noteee > p{
+    color: #ffffff;
+    margin-left: 10.9rem;
+}
+.noteeee > h5{
+    color: #ffffff;
+    margin-right: 32rem;
+}
+.noteeee > p{
+    color: #ffffff;
+}
+.latest-work > h2{
+    padding: 1rem;
+}
+.image-work > img{
+    height: 70vh;
+    width: 70vh;
+}
+.image-work{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+footer > img{
+    height: 10vh;
+}
+.contain{
+    display: flex;
+    margin-left: 9rem;
+}
+#h1{
+    color: #fff;
+    font-size: 30px;
+
+}
+.phone > img{
+    height: 3vh;
+}
+.email > img{
+    height: 3vh;
+}
+footer{
+    background-color: black;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .content-wrapper-div{
+        flex-direction: column;
+    }
+    .parent-text{
+        flex-direction: column;
+    }
+    .image-work{
+        flex-direction: column;
+        width: 100vh;
+    }
+    .noteee{
+        margin-left: -9rem;
+    }
+    footer{
+        width: 100vh;
+    }
+    .containn{
+        flex-direction: column;
+        margin-left: -10rem;
+        margin-top: 2rem;
+    }
+    .phone{
+        flex-direction: column;
+        margin-left: -0.2rem;
+    }
+    .email{
+        flex-direction: column;
+        margin-left: -0.2rem;
+    }
+    .para{
+        margin-left: -0.2rem;
+    }
+    .containnn{
+        margin-top: 2rem;
+    }
+    .design{
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+   
 }
